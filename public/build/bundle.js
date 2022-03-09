@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -5150,7 +5150,7 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			create_component(login.$$.fragment);
-    			add_location(main, file$2, 113, 4, 3499);
+    			add_location(main, file$2, 113, 4, 3525);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
@@ -5231,7 +5231,7 @@ var app = (function () {
     			input = element("input");
     			t2 = space();
     			button = element("button");
-    			t3 = text("💥");
+    			t3 = text("SEND");
     			t4 = space();
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
@@ -5239,12 +5239,12 @@ var app = (function () {
     			add_location(div, file$2, 91, 6, 2972);
     			add_location(main, file$2, 86, 4, 2809);
     			attr_dev(input, "type", "text");
-    			attr_dev(input, "placeholder", "Type a message...");
+    			attr_dev(input, "placeholder", "Enter your message...");
     			attr_dev(input, "maxlength", "100");
     			add_location(input, file$2, 95, 6, 3088);
     			attr_dev(button, "type", "submit");
     			button.disabled = button_disabled_value = !/*newMessage*/ ctx[0];
-    			add_location(button, file$2, 97, 6, 3189);
+    			add_location(button, file$2, 97, 6, 3193);
     			add_location(form, file$2, 94, 4, 3036);
     		},
     		m: function mount(target, anchor) {
@@ -5440,11 +5440,11 @@ var app = (function () {
     			div = element("div");
     			button = element("button");
     			if (if_block) if_block.c();
-    			t = text("\n\n        👇");
+    			t = text("\n\n        Go to end");
     			toggle_class(button, "red", /*unreadMessages*/ ctx[4]);
-    			add_location(button, file$2, 103, 6, 3323);
+    			add_location(button, file$2, 103, 6, 3329);
     			attr_dev(div, "class", "scroll-button");
-    			add_location(div, file$2, 102, 4, 3289);
+    			add_location(div, file$2, 102, 4, 3295);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5498,7 +5498,7 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			t = text("💬");
+    			t = text("Unread messages");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -5781,7 +5781,7 @@ var app = (function () {
     		c: function create() {
     			h3 = element("h3");
     			h3.textContent = "p2p Chat By Vanaj & Chhavinder";
-    			add_location(h3, file$1, 28, 6, 953);
+    			add_location(h3, file$1, 28, 6, 958);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -5830,15 +5830,15 @@ var app = (function () {
     			t3 = space();
     			button = element("button");
     			button.textContent = "Log Out";
-    			add_location(strong, file$1, 18, 18, 613);
-    			add_location(span, file$1, 18, 6, 601);
+    			add_location(strong, file$1, 18, 18, 618);
+    			add_location(span, file$1, 18, 6, 606);
     			if (img.src !== (img_src_value = `https://avatars.dicebear.com/api/initials/${/*$username*/ ctx[0]}.svg`)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "avatar");
-    			add_location(img, file$1, 21, 6, 761);
+    			add_location(img, file$1, 21, 6, 766);
     			attr_dev(div, "class", "user-bio");
-    			add_location(div, file$1, 16, 4, 565);
+    			add_location(div, file$1, 16, 4, 570);
     			attr_dev(button, "class", "signout-button");
-    			add_location(button, file$1, 24, 4, 866);
+    			add_location(button, file$1, 24, 4, 871);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5902,7 +5902,7 @@ var app = (function () {
     			t0 = text("// Signing out the user account by importing the username from the store\n\n\n\n");
     			header = element("header");
     			h1 = element("h1");
-    			h1.textContent = "CSU";
+    			h1.textContent = "CSU33D03";
     			t2 = space();
     			if_block.c();
     			add_location(h1, file$1, 14, 0, 449);

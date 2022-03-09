@@ -93,9 +93,9 @@
     </main>
 
     <form on:submit|preventDefault={sendMessage}>
-      <input type="text" placeholder="Type a message..." bind:value={newMessage} maxlength="100" />
+      <input type="text" placeholder="Enter your message..." bind:value={newMessage} maxlength="100" />
 
-      <button type="submit" disabled={!newMessage}>💥</button>
+      <button type="submit" disabled={!newMessage}>SEND</button>
     </form>
 
 
@@ -103,10 +103,10 @@
     <div class="scroll-button">
       <button on:click={autoScroll} class:red={unreadMessages}>
         {#if unreadMessages}
-          💬
+          Unread messages
         {/if}
 
-        👇
+        Go to end
       </button>
     </div>
    {/if}
