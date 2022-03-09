@@ -5991,10 +5991,9 @@ var app = (function () {
     const file = "src/App.svelte";
 
     function create_fragment(ctx) {
-    	let t0;
     	let div;
     	let header;
-    	let t1;
+    	let t;
     	let chat;
     	let current;
     	header = new Header({ $$inline: true });
@@ -6002,22 +6001,20 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			t0 = text("// Declaration of modules here to run the application\n\n\n");
     			div = element("div");
     			create_component(header.$$.fragment);
-    			t1 = space();
+    			t = space();
     			create_component(chat.$$.fragment);
     			attr_dev(div, "class", "app");
-    			add_location(div, file, 6, 0, 150);
+    			add_location(div, file, 6, 0, 157);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
     			insert_dev(target, div, anchor);
     			mount_component(header, div, null);
-    			append_dev(div, t1);
+    			append_dev(div, t);
     			mount_component(chat, div, null);
     			current = true;
     		},
@@ -6034,7 +6031,6 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(div);
     			destroy_component(header);
     			destroy_component(chat);
