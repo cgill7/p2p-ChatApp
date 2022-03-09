@@ -12,7 +12,7 @@
 
 <!-- HTML to implement the signout button in the UI, and also to display the username as the header -->
 <header>
-<h1>CSU</h1>
+<h1>CSU33D03</h1>
   {#if $username} <!-- Checking to see if the username is present and display it in the HEADER -->
     <div class="user-bio">
       
