@@ -4,3 +4,5 @@ CSU33D03 Project 1, Build a decentralized chat app using the GUN JavaScript libr
 ## TO RUN:
 ### npm install
 ### npm run dev
+#### If your default PORT (5000) is not accesible, use command : -
+### PORT=5555 npm run dev
