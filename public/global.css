@@ -92,11 +92,11 @@ header {
   }
   
   main::-webkit-scrollbar-track {
-	background: #585879;
+	background: #292626;
   }
   
   main::-webkit-scrollbar-thumb {
-	background: #4b3d74;
+	background: #948d93;
   }
   
   form {
